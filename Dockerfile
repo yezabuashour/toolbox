@@ -3,8 +3,7 @@ FROM ubuntu:latest
 
 LABEL maintainer="yez"
 LABEL version="0.1.20210806"
-LABEL description="This is a custom dev \
-box, loaded with tools and frameworks"
+LABEL description="a handy linux toolbox"
 
 #disabling prompt
 ARG DEBIAN_FRONTEND=noninteractive
