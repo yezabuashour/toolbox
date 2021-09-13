@@ -7,7 +7,7 @@ NOTE: This is still under development and will be updated as necessary
 - Docker or Docker Desktop
 
 ### Installation
-1. `git clone https://github.com/yezabuashour/toolbox.git`
+1. `git clone git@gitlab.com:bung-broker/toolbox.git`
 2. In terminal/powershell: `docker build -t toolbox .`
 
 ### Running the box

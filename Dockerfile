@@ -2,7 +2,7 @@
 FROM ubuntu:latest
 
 LABEL maintainer="yez"
-LABEL version="0.1.20210806"
+LABEL version="0.1.20210912"
 LABEL description="a handy linux toolbox"
 
 #disabling prompt
