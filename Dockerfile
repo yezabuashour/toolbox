@@ -17,9 +17,9 @@ postgresql-client \
 git-all \
 iputils-ping \
 zsh \
-vim -y && \
-sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" && \
-git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+vim \
+npm \
+python3-pip -y
 
-#adding root profile files
-ADD customizers/ /root/
+
+RUN python3 -m pip install Django
